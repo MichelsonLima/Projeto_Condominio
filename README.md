@@ -38,4 +38,4 @@ Para os inquilinos:
 12. Chat no aplicativo;
 13. Registro de lojas no condomínio.
 
-#### [Histórias de usuário](https://docs.google.com/document/d/1AavwmHKm-D1hWsz2xtv4aWTVCbUOe09XDU3OUAHVANA/edit "Histórias de usuário")
+#### [Histórias de usuário]([https://docs.google.com/document/d/1AavwmHKm-D1hWsz2xtv4aWTVCbUOe09XDU3OUAHVANA/edit](https://docs.google.com/document/d/1AavwmHKm-D1hWsz2xtv4aWTVCbUOe09XDU3OUAHVANA/edit?usp=sharing) "Histórias de usuário")
