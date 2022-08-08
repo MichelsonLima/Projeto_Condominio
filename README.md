@@ -24,4 +24,18 @@ Para os inquilinos:
 
 ### Requisitos do projeto
 
+1. Envio de cobrança;
+2. Forma de pagamento via Pix;
+3. Registro de pagamentos dos inquilinos;
+4. Registro de pagamento dos funcionários;
+5. Multa para pagamento atrasado;
+6. Cadastro de tercerizadas;
+7. Reserva de áreas comuns;
+8. Disponibilidade de vagas do estacionamento;
+9. Criação de votação;
+10. Subistituir porteiro físico;
+11. Registro de pessoas na portaria;
+12. Chat no aplicativo;
+13. Registro de lojas no condomínio.
 
+#### [Histórias de usuário](http://http://https://docs.google.com/document/d/1AavwmHKm-D1hWsz2xtv4aWTVCbUOe09XDU3OUAHVANA/edit?usp=sharing "Histórias de usuário")
