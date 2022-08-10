@@ -1,7 +1,7 @@
 # Projeto Gerenciador de Condomínio 🏙️
 
 ### Integrantes da equipe
-* Públio Oliveira
+* Públio Oliveira - Email: publio.noliveira@ufrpe.br
 * Nícolas Oliveira - Email: sansung700@gmail.com
 * Michelson Oliveira
 
