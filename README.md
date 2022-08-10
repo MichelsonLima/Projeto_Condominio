@@ -2,7 +2,7 @@
 
 ### Integrantes da equipe
 * Públio Oliveira
-* Nícolas Oliveira
+* Nícolas Oliveira - Email: sansung700@gmail.com
 * Michelson Oliveira
 
 ### Descrição geral do projeto
