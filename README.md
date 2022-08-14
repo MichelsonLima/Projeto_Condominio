@@ -3,7 +3,7 @@
 ### Integrantes da equipe
 * Públio Oliveira - Email: publio.noliveira@ufrpe.br
 * Nícolas Oliveira - Email: sansung700@gmail.com
-* Michelson Oliveira
+* Michelson Oliveira - email: michelsorteios@gmail.com
 
 ### Descrição geral do projeto
 
