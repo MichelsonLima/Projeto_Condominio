@@ -3,7 +3,8 @@
 ### Integrantes da equipe
 * Públio Oliveira - Email: publio.noliveira@ufrpe.br
 * Nícolas Oliveira - Email: sansung700@gmail.com
-* Michelson Oliveira - email: michelsorteios@gmail.com
+* Michelson Oliveira - Email: michelsorteios@gmail.com
+* Yasmin Nascimento - Email: yasmimy.s82@gmail.com
 
 ### Descrição geral do projeto
 
@@ -31,3 +32,6 @@ Para os inquilinos:
 
 
 #### [Histórias de usuário](https://docs.google.com/document/d/1AavwmHKm-D1hWsz2xtv4aWTVCbUOe09XDU3OUAHVANA/edit?usp=sharing "Histórias de usuário")
+#### [Arquitetura do Projeto](https://docs.google.com/document/d/19-aI0rjP7QABSIpi0Ju8kRarCardO5oCzqGAxqGuCEw/edit?usp=sharing "Arquitetura do Projeto")
+
+![photo_4909434270196542239_y](https://user-images.githubusercontent.com/67869450/186014163-5bc702d8-2183-4358-b429-e4e9d67778db.jpg)
