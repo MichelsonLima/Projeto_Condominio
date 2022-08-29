@@ -8,7 +8,7 @@
 
 ### Descrição geral do projeto
 
-Projeto tem a finalidade de ser um gerenciador de condomínio, contribuindo para facilicar a adiministração das contas, funcionários, gerencia de estacionamento e lugares de área comum.
+Projeto tem a finalidade de ser um gerenciador de condomínio, contribuindo para facilitar a adiministração das contas, funcionários, gerencia de estacionamento e lugares de área comum.
 
 Como síndico ou pessoas responsáveis pela administração do condomínio, estará disponível as funcionalidades de:
 * Controle financeiro;
