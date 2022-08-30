@@ -33,5 +33,5 @@ Para os inquilinos:
 
 #### [Histórias de usuário](https://docs.google.com/document/d/1AavwmHKm-D1hWsz2xtv4aWTVCbUOe09XDU3OUAHVANA/edit?usp=sharing "Histórias de usuário")
 #### [Arquitetura do Projeto](https://docs.google.com/document/d/19-aI0rjP7QABSIpi0Ju8kRarCardO5oCzqGAxqGuCEw/edit?usp=sharing "Arquitetura do Projeto")
+![photo1661730130](https://user-images.githubusercontent.com/67869450/187499986-33edf53c-6f1d-4d0d-9afe-719bf0b4112e.jpeg)
 
-![photo_4909434270196542239_y](https://user-images.githubusercontent.com/67869450/186014163-5bc702d8-2183-4358-b429-e4e9d67778db.jpg)
