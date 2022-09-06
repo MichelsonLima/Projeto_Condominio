@@ -37,4 +37,7 @@ Para os inquilinos:
 ### Painel Kanban
 ![photo1662430971](https://user-images.githubusercontent.com/67869450/188724791-3a812da8-a482-418e-a67d-337d9308d857.jpeg)
 
+### UML
+![photo1662506951](https://user-images.githubusercontent.com/67869450/188757707-76693f84-c266-4793-a0b4-78f4210ac9ff.jpeg)
+
 
