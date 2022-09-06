@@ -33,5 +33,7 @@ Para os inquilinos:
 
 #### [Histórias de usuário](https://docs.google.com/document/d/1AavwmHKm-D1hWsz2xtv4aWTVCbUOe09XDU3OUAHVANA/edit?usp=sharing "Histórias de usuário")
 #### [Arquitetura do Projeto](https://docs.google.com/document/d/19-aI0rjP7QABSIpi0Ju8kRarCardO5oCzqGAxqGuCEw/edit?usp=sharing "Arquitetura do Projeto")
-![photo1661730130](https://user-images.githubusercontent.com/67869450/187499986-33edf53c-6f1d-4d0d-9afe-719bf0b4112e.jpeg)
+### Kanban
+![photo1662430971](https://user-images.githubusercontent.com/67869450/188724791-3a812da8-a482-418e-a67d-337d9308d857.jpeg)
+
 
