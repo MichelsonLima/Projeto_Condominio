@@ -4,7 +4,6 @@
 * Públio Oliveira - Email: publio.noliveira@ufrpe.br
 * Nícolas Oliveira - Email: sansung700@gmail.com
 * Michelson Oliveira - Email: michelsorteios@gmail.com
-* Yasmin Nascimento - Email: yasmimy.s82@gmail.com
 
 ### Descrição geral do projeto
 
