@@ -1,11 +1,11 @@
-# Projeto Gerenciador de Condomínio 🏙️
+# 🏙️| Projeto Gerenciador de Condomínio 
 
 ### Integrantes da equipe
 * Públio Oliveira - Email: publio.noliveira@ufrpe.br
 * Nícolas Oliveira - Email: sansung700@gmail.com
 * Michelson Oliveira - Email: michelsorteios@gmail.com
 
-### Descrição geral do projeto
+### 📝| Descrição geral do projeto
 
 Projeto tem a finalidade de ser um gerenciador de condomínio, contribuindo para facilitar a adiministração das contas, funcionários, gerencia de estacionamento e lugares de área comum.
 
@@ -22,7 +22,7 @@ Para os inquilinos:
 * Cadastro de pessoas pré-programadas na portaria;
 * Chat no aplicativo;
 
-### Requisitos do projeto
+### 📄| Requisitos do projeto
 
 1. Controle financeiro - o sistema vai abranger funcionalidade que envolvem a parte contábil do condomínio.
 2. Cadastro de tercerizadas e visitantes no condomínio - o sistema vai permitir o cadastramento de tercerizadas que prestam serviços de manutenção e visitantes no condomínio.
@@ -33,11 +33,11 @@ Para os inquilinos:
 #### [Histórias de usuário](https://docs.google.com/document/d/1AavwmHKm-D1hWsz2xtv4aWTVCbUOe09XDU3OUAHVANA/edit?usp=sharing "Histórias de usuário")
 #### [Arquitetura do Projeto](https://docs.google.com/document/d/19-aI0rjP7QABSIpi0Ju8kRarCardO5oCzqGAxqGuCEw/edit?usp=sharing "Arquitetura do Projeto")
 
-### Painel Kanban
+### 📌| Painel Kanban
 ![Captura de tela 2022-09-12 160727](https://user-images.githubusercontent.com/67869450/189735830-77abc8c6-a65b-4e2a-974a-6e7799fcddaf.png)
 
 
-### UML
+### ⚙️| UML
 ![photo1662507239](https://user-images.githubusercontent.com/67869450/188758066-1c85ef8b-57a0-4332-81a0-89ec6915f53c.jpeg)
 
 
