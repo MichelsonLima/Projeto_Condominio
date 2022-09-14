@@ -34,7 +34,7 @@ Para os inquilinos:
 #### [Arquitetura do Projeto](https://docs.google.com/document/d/19-aI0rjP7QABSIpi0Ju8kRarCardO5oCzqGAxqGuCEw/edit?usp=sharing "Arquitetura do Projeto")
 
 ### 📌| Painel Kanban
-![Captura de tela 2022-09-12 160727](https://user-images.githubusercontent.com/67869450/190031229-8f218fe0-3033-437b-8059-f37c5b03de4a.png)
+![Captura de tela 2022-09-13 211244](https://user-images.githubusercontent.com/67869450/190031286-18721bd2-8660-45f1-ac34-4461f849b4ff.png)
 
 
 
