@@ -1,0 +1,91 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+body {
+    font-family: "Roboto Mono", monospace;
+    background-color: #0e84f2;
+}
+/*HEADER*/
+header {
+  background-color: #014eb8;
+  display: flex;
+  justify-content: center;
+  color: white;
+
+  padding: 10px;
+}
+
+/*FORM STYLES*/
+#section-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form-container {
+  margin-top: 50px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #cbebf6;
+  padding: 50px 100px;
+  background-color: #33c9fc;
+  
+  
+}
+
+label {
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+}
+
+input {
+  margin-bottom: 5px;
+  border-radius: 5px;
+  border: none;
+  height: 30px;
+}
+
+#btnSubscribe {
+  margin-top: 30px;
+  border-radius: 5px;
+  border-style: none;
+  height: 40px;
+}
+#btnSubscribe:hover{
+  background-color: #0e84f2;
+  transition: 0.3s;
+  
+}
+#btnSubscribe:hover a{
+  color: #ffffff;
+}
+.btnReference{
+  text-decoration: none;
+  color: #014eb8;
+}
+
+input::-webkit-outer-spin-button, /*tira setas do campo de dados*/
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.cadastro {
+    align-self: center;
+    margin-top: 10px;
+    text-decoration: none;
+    color: black;
+    margin-top: 30px;
+}
+
+.cadastro:hover{
+    color: #ffffff;
+    transition: .3s;
+}
+
