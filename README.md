@@ -36,10 +36,5 @@ Para os inquilinos:
 ### 📌| Painel Kanban
 ![Captura de tela 2022-09-14 181651](https://user-images.githubusercontent.com/67869450/190264137-5fe21799-5aad-4960-854d-6fcc315dad0c.png)
 
-
-
-
 ### ⚙️| UML
-![photo1662507239](https://user-images.githubusercontent.com/67869450/188758066-1c85ef8b-57a0-4332-81a0-89ec6915f53c.jpeg)
-
-
+![photo1663192630](https://user-images.githubusercontent.com/67869450/190270246-c5b9024c-2c15-475e-996f-4df3686861cb.jpeg)
