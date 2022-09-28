@@ -11,7 +11,7 @@ import javax.persistence.ManyToOne;
 import javax.persistence.Table;
 
 @Entity
-@Table(name = "prestadorDeServico")
+@Table(name = "prestadorDeServicos")
 public class PrestadorDeServico implements Serializable {
 	private static final long serialVersionUID = 1L;
 
@@ -26,26 +26,16 @@ public class PrestadorDeServico implements Serializable {
 	private String cfpOuCnpj;
 	
 	@ManyToOne
-	@JoinColumn(name = "condomino_id", nullable = false)
+	@JoinColumn(name = "condomino_id")
 	private Condomino condomino;
 	
 	public PrestadorDeServico() {
 	}
 
-	public PrestadorDeServico(String nome, String endereco, String telefone, String tipoServico,
-			String tipoJuridicaOuFisica, String cfpOuCnpj) {
-		super();
-		this.nome = nome;
-		this.endereco = endereco;
-		this.telefone = telefone;
-		this.tipoServico = tipoServico;
-		this.tipoJuridicaOuFisica = tipoJuridicaOuFisica;
-		this.cfpOuCnpj = cfpOuCnpj;
-	}
-
-	public PrestadorDeServico(String nome, String endereco, String telefone, String tipoServico,
+	public PrestadorDeServico(Long id, String nome, String endereco, String telefone, String tipoServico,
 			String tipoJuridicaOuFisica, String cfpOuCnpj, Condomino condomino) {
 		super();
+		this.id = id;
 		this.nome = nome;
 		this.endereco = endereco;
 		this.telefone = telefone;
@@ -53,6 +43,14 @@ public class PrestadorDeServico implements Serializable {
 		this.tipoJuridicaOuFisica = tipoJuridicaOuFisica;
 		this.cfpOuCnpj = cfpOuCnpj;
 		this.condomino = condomino;
+	}
+	
+	public Long getId() {
+		return id;
+	}
+
+	public void setId(Long id) {
+		this.id = id;
 	}
 
 	public String getNome() {

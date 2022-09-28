@@ -3,9 +3,6 @@ package com.gerenciador.condominio.models;
 import java.io.Serializable;
 
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.Table;
@@ -15,37 +12,24 @@ import javax.persistence.Table;
 public class Familia extends Pessoa implements Serializable {
 	private static final long serialVersionUID = 1L;
 	
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
 	private String cpf;
-	private String rg;
-	
+	private String rg;	
 	private String grauParentesco;
 	
 	@ManyToOne
-	@JoinColumn(name = "condomino_id", nullable = false)
+	@JoinColumn(name = "condomino_id")	
 	private Condomino condomino;
 	
 	public Familia() {
 	}
 	
-	public Familia(String nome, String endereco, String telefone, Long id, String cpf, String rg, String grauParentesco,
+	public Familia(Long id, String nome, String endereco, String telefone, String cpf, String rg, String grauParentesco,
 			Condomino condomino) {
-		super(nome, endereco, telefone);
-		this.id = id;
+		super(id, nome, endereco, telefone);
 		this.cpf = cpf;
 		this.rg = rg;
 		this.grauParentesco = grauParentesco;
 		this.condomino = condomino;
-	}
-
-	public Long getId() {
-		return id;
-	}
-
-	public void setId(Long id) {
-		this.id = id;
 	}
 
 	public String getCpf() {

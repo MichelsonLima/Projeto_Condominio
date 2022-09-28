@@ -4,79 +4,59 @@ import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 
+import javax.persistence.CascadeType;
 import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
 import javax.persistence.OneToMany;
+import javax.persistence.OneToOne;
 import javax.persistence.Table;
+
+import com.fasterxml.jackson.annotation.JsonIgnore;
 
 @Entity
 @Table(name = "condomino")
 public class Condomino extends Pessoa implements Serializable {
 	private static final long serialVersionUID = 1L;
-	
-	@Id
-	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Long id;
+
 	private String cpf;
 	private String rg;
 	private String unidade;
-	
-	//Faz a referência para o conjunto de pessoas da família do condômino
-	@OneToMany(mappedBy = "condomino")
+
+	// Faz a referência para o conjunto de pessoas da família do condômino
+	@JsonIgnore
+	@OneToMany(mappedBy = "condomino", cascade=CascadeType.ALL)
 	private List<Familia> familia = new ArrayList<>();
-	
-	//Faz a referência para o conjunto de visitantes do condômino
-	@OneToMany(mappedBy = "condomino")
+
+	// Faz a referência para o conjunto de visitantes do condômino
+	@JsonIgnore
+	@OneToMany(mappedBy = "condomino", cascade=CascadeType.ALL)
 	private List<Visitante> visitante = new ArrayList<>();
-	
-	//Faz a referência para o conjunto de visitantes do condômino
-	@OneToMany(mappedBy = "condomino")
+
+	// Faz a referência para o conjunto de visitantes do condômino
+	@JsonIgnore
+	@OneToMany(mappedBy = "condomino", cascade=CascadeType.ALL)
 	private List<PrestadorDeServico> prestadorDeServico = new ArrayList<>();
 	
+	@OneToOne
+	private Reserva reserva;
+	
+	@OneToOne
+	private SistemaDeGaragem sistemaDeGaragem;
+
 	public Condomino() {
 	}
-	
-	public Condomino(String nome, String endereco, String telefone, Long id, String cpf, String rg, String unidade,
-			List<Familia> familia) {
-		super(nome, endereco, telefone);
-		this.id = id;
-		this.cpf = cpf;
-		this.rg = rg;
-		this.unidade = unidade;
-		this.familia = familia;
-	}
-	
-	public Condomino(String nome, String endereco, String telefone, Long id, String cpf, String rg, String unidade,
-			List<Familia> familia, List<Visitante> visitante) {
-		super(nome, endereco, telefone);
-		this.id = id;
-		this.cpf = cpf;
-		this.rg = rg;
-		this.unidade = unidade;
-		this.familia = familia;
-		this.visitante = visitante;
-	}
 
-	public Condomino(String nome, String endereco, String telefone, Long id, String cpf, String rg, String unidade,
-			List<Familia> familia, List<Visitante> visitante, List<PrestadorDeServico> prestadorDeServico) {
-		super(nome, endereco, telefone);
-		this.id = id;
+	public Condomino(Long id, String nome, String endereco, String telefone, String cpf, String rg, String unidade,
+			List<Familia> familia, List<Visitante> visitante, List<PrestadorDeServico> prestadorDeServico,
+			Reserva reserva, SistemaDeGaragem sistemaDeGaragem) {
+		super(id, nome, endereco, telefone);
 		this.cpf = cpf;
 		this.rg = rg;
 		this.unidade = unidade;
 		this.familia = familia;
 		this.visitante = visitante;
 		this.prestadorDeServico = prestadorDeServico;
-	}
-
-	public Long getId() {
-		return id;
-	}
-
-	public void setId(Long id) {
-		this.id = id;
+		this.reserva = reserva;
+		this.sistemaDeGaragem = sistemaDeGaragem;
 	}
 
 	public String getCpf() {
@@ -107,28 +87,40 @@ public class Condomino extends Pessoa implements Serializable {
 		return familia;
 	}
 
-	public void addFamilia(Familia familia) {
-		this.familia.add(familia);
-	}
-	
 	public void setFamilia(List<Familia> familia) {
 		this.familia = familia;
-	}	
-	
+	}
+
 	public List<Visitante> getVisitante() {
 		return visitante;
 	}
 
-	public void addVisitante(Visitante visitante) {
-		this.visitante.add(visitante);
+	public void setVisitante(List<Visitante> visitante) {
+		this.visitante = visitante;
 	}
 
 	public List<PrestadorDeServico> getPrestadorDeServico() {
 		return prestadorDeServico;
 	}
 
-	public void addPrestadorDeServico(PrestadorDeServico prestadorDeServico) {
-		this.prestadorDeServico.add(prestadorDeServico);
-	}	
+	public void setPrestadorDeServico(List<PrestadorDeServico> prestadorDeServico) {
+		this.prestadorDeServico = prestadorDeServico;
+	}
+
+	public Reserva getReserva() {
+		return reserva;
+	}
+
+	public void setReserva(Reserva reserva) {
+		this.reserva = reserva;
+	}
+
+	public SistemaDeGaragem getSistemaDeGaragem() {
+		return sistemaDeGaragem;
+	}
+
+	public void setSistemaDeGaragem(SistemaDeGaragem sistemaDeGaragem) {
+		this.sistemaDeGaragem = sistemaDeGaragem;
+	}
 	
 }
